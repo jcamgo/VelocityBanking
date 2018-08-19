@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+class Income {
+    
+    let monthlyIncome: Int
+    
+    init(monthlyIncome: Int) {
+        self.monthlyIncome = monthlyIncome
+    }
+    
+}
